@@ -52,7 +52,7 @@ nav {
 
 /* INTRO */
 
-.intro {
+.orr-intro {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -66,7 +66,7 @@ nav {
 }
 
 
-.main {
+.orr-main {
   display:grid;
   gap: 2rem;
   grid-template-columns: 1fr;
@@ -76,16 +76,16 @@ nav {
 }
 
 @media screen and (min-width: 768px){
-  .main {
+  .orr-main {
     grid-template-columns: 1fr 1fr;
   }}
 @media screen and (max-width: 600px){
-    .intro {
+    .orr-intro {
     padding: 0 2.5rem;
   }}
 
 
-.title {
+.orr-title {
   text-align: center;
   color: rgba(249, 249, 237, 1);
   font-family: "Playfair Display", serif;
@@ -95,7 +95,7 @@ nav {
   line-height: 1.2;
 }
 
-.subtitle {
+.orr-subtitle {
   text-align: center;
   color: rgba(249, 249, 237, 1);
   font-family: 'Inter', sans-serif;
@@ -108,7 +108,7 @@ nav {
 
 /* TARJETAS */
 
-.card {
+.orr-card {
   perspective: 1000px;
   max-width: 800px;
   display: flex;
@@ -116,7 +116,7 @@ nav {
   position: relative;
 }
 
-.card_inner { /* su única función es como contenedor que se voltea */
+.orr-card-inner { /* su única función es como contenedor que se voltea */
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.6s;
@@ -124,8 +124,8 @@ nav {
   height: 100%;
 }
 
-.card_front,
-.card_back {
+.orr-card-front,
+.orr-card-back {
   backface-visibility: hidden;
   position: absolute;
   width: 100%;
@@ -139,48 +139,48 @@ nav {
   box-sizing: border-box;
 }
 
-.card_back {
+.orr-card-back {
   transform: rotateY(180deg); /* Ya está volteada desde el inicio */
 }
 
-.card:hover .card_inner {
+.orr-card:hover .orr-card-inner {
   transform: rotateY(180deg);
 }
 
-.card_image {
+.orr-card-image {
   margin:0;
   text-align: center;
 }
 
-.card_image img {
+.orr-card-image img {
   max-width: 162px;
   height: 150px;
   border-radius: 8px;
   object-fit: cover;
 }
 
-.card_content {
+.orr-card-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
-.card_title {
+.orr-card-title {
   font-family: "Playfair Display", serif;
   color: rgb(65, 84, 144);
   font-size: 14px;
   margin-bottom: 0.5rem;
 }
 
-.card_description {
+.orr-card-description {
   font-family: "Inter", sans-serif;
   color: rgba(125, 132, 178, 1);
   font-size: 15px;
   margin: 0 0 1rem 0;
 }
 
-.scientist_name {
+.orr-scientist-name {
     font-family: "Playfair Display", serif;
     color: rgb(65, 84, 144);
     font-size: 20px;
@@ -188,7 +188,7 @@ nav {
     margin-bottom: 0.5rem;
 }
 
-.scientist_profession {
+.orr-scientist-profession {
     font-family: "Inter", sans-serif;
     color: rgba(125, 132, 178, 1);
     font-size: 18px;
@@ -196,7 +196,7 @@ nav {
     margin: 0 0 0.5rem 0;
 }
 
-.scientist_dates {
+.orr-scientist-dates {
     font-family: "Inter", sans-serif;
     color: rgba(125, 132, 178, 1);
     font-size: 16px;
