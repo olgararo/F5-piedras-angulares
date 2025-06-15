@@ -24,4 +24,3 @@ Este proyecto tiene como objetivo presentar una estructura base para el desarrol
 ## Autor
 
 - [olgararo](https://github.com/olgararo)
-
