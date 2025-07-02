@@ -19,7 +19,7 @@ Este proyecto tiene como objetivo presentar una estructura base para el desarrol
    ```bash
    git clone https://github.com/olgararo/F5-piedras-angulares.git
    ```
-2. Abre el archivo `index.html` en tu navegador para ver el proyecto.
+2. Descarga y abre el archivo `index.html` en tu navegador para ver el proyecto o haz click [aquí] (https://olgararo.github.io/F5-piedras-angulares/) para verla en Github Pages 
 
 ## Autor
 
